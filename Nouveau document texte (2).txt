@@ -1,0 +1,37 @@
+codingame
+HackrRank
+
+
+echo "# OpenclassroomsProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/touilimaher/OpenclassroomsProject.git
+git push -u origin main
+
+
+git branch -d brancheTest
+git branch -D brancheTest
+
+git status
+
+git stash
+
+git stash list
+
+git stash apply stash@{0}
+
+git add .
+
+git log
+
+git reset --hard HEAD^
+
+git reset --hard ca83a6df
+
+git commit --amend -m "Votre nouveau message de commit"
+
+git commit --amend --no-edit
+
+git revert HEAD^
